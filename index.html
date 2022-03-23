@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - URL shortening API landing page_Frontend Mentor</title>
+  <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css"
+    /><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main class="main" style="max-width: 100%">
+  <!-- Header -->
+  <header class="header">
+    <div class="container flex-between">
+      <div class="logo">
+        <a href="#">
+          <img src="logo.svg" alt="" onMouseOver="src:logoblue.svg<img onmouseover = "changePic1()"onmouseout= "changePic2()" id="myImg" src="logo.svg"" />
+        </a>
+      </div>
+      <nav class="main-navgation flex-between flex-ver-top">
+        <div class="nav-links">
+          <a href="#features">About us</a>
+          <a href="#pricing">Download</a>
+          <a href="#resources">Contact</a>
+        </div>
+        <!--<div class="nav-buttons">
+          <a href="#" class="log-in">Login</a>
+          <a href="#" class="sign-up btn btn-sm">Sign Up</a>
+        </div> -->
+      </nav>
+      <div class="burger-menu">
+        <i class="fa-regular fa-bars icon"></i>
+      </div>
+    </div>
+  </header>
+  <!-- Landing -->
+  <section class="landing">
+    <div class="landing-text">
+      <h1>Hi, Welcome to Zatla</h1>
+		<p>We are the first Locker Laundry Service in VietNam
+      </p>
+      <a href="#features" class="btn btn-lg">Learn more</a>
+    </div>
+    <div class="landing-image">
+      <img src="img1.png" alt="">
+    </div>
+  </section>
+  <!-- Features -->
+  <section class="features" id="features">
+    <div class="landing2">
+	  <div class="landing-image">
+        <img src="img2.png" alt="">
+      </div>
+  	  <div class="container">
+	  	<div class="landing-text">
+          <h1>Locker Laundry on Zatla</h1>
+		  <p>Locker Laundry System is a new service, automated operation to enhance user experience</p>
+        </div>
+      </div>
+   </div>
+
+
+     
+    
+  </section>
+  <!-- Pricing -->
+  <section class="pricing" id="pricing">
+	 <div class="landing">
+	  <div class="landing-text">
+       <h1>1. Find Zatla on App Store and CH Play</h1>
+		    <a href="https://play.google.com/store/apps" class="sign-up btn btn-sm"><img style="width:100px; margin-right:50px;" src="ch play.svg" alt=""/></a>
+		    <a href="https://www.apple.com/vn/app-store/" class="sign-up btn btn-sm"><img style="width:105px;" src="appstore.svg" alt=""/></a>
+      </div>
+      <div class="landing-image">
+       <img src="img3.png" alt="">
+     </div>
+    </div>
+	<div style="margin-left:7%;">
+		<img src="guide.jpg">
+    </div>
+  </section>
+  <!-- Features -->
+
+  <!-- Footer -->
+  <footer class="footer" id="resources">
+    <div class="container">
+      <!-- Website Logo -->
+      <div class="logo">
+        <a href="#">
+          <img style="width:60px" src="logowhite.svg" alt="" />
+        </a>
+      </div>
+		<div class="logo">
+        <p href="#">
+          
+        </p>
+      </div>
+      <!-- Quick Links -->
+      <div class="quick-links" style="font-family: montserratbold">
+        <div class="links-group">
+          <span>Zatla company</span>
+          <div>
+            <a href="#">About</a>
+            <a href="#">Our Team</a>
+            <a href="#">Career</a>
+          </div>
+        </div>
+        <div class="links-group">
+          <span>Resources</span>
+          <div>
+            <a href="#">Blog</a>
+            <a href="#">Developers</a>
+            <a href="#">Support</a>
+          </div>
+        </div>
+        <div class="links-group">
+          <span>Contact</span>
+          <div>
+            <a href="#">+03 8457 8910</a>
+            <a href="#">welcom@zatla.com</a>
+            <a href="#">High-Tech Park District 9, Ho Chi Minh City </a>
+          </div>
+        </div>
+      </div>
+      <!-- Social Media -->
+     
+    </div>
+    <!-- Made By -->
+    <div style="font-family: montserrat; margin-top: 3%" class="attribution">
+		Create by <a href="#landing" class="outer-link" target="_blank">Gia Bao</a> and <a href="#landing" class="outer-link" target="_blank">Nguyen Khoi</a>. Special thanks to <a href="#landing" class="outer-link" target="_blank">Mr. Phan Nhat Trung</a>
+      <ul class="social-media">
+      </ul>
+    </div>
+  </footer>
+</main>
+<!-- partial -->
+  <script  src="./script.js"></script>
+	<script>
+		function changePic1() {
+           document.getElementById("myImg").src = "logo.svg";
+		   }
+		function changePic2(){
+		   document.getElementById("myImg").src = "logoblue.svg";
+		   }
+	</script>
+
+</body>
+</html>
